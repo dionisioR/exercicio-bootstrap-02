@@ -1,0 +1,51 @@
+:root{
+    --cor1: #8D7B68;
+    --cor2: #A4907C;
+    --cor3: #C8B6A6;
+    --cor4: #eee9e2fe;
+    --cor5: #fff;
+    --cor6: #000;
+}
+
+.bg-primario-nav{
+    background-color: var(--cor2);
+}
+.bg-primario-nav .nav-link, .bg-primario-nav .nav-link.active{
+    color:#fff
+}
+
+.bg-secundario{
+    background-color: var(--cor4);
+}
+
+.logo{
+    width: 42px;
+    border-radius: 50%;
+}
+
+header{
+    height: 80vh;
+    background-image: url('../img/paisage-pexels-007.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header h1{
+    color: var(--cor1);
+    font-size: 4em;
+    text-shadow: 2px 2px 3px var(--cor5);
+}
+
+.border-color-primary{
+    border-bottom: solid var(--cor1) !important;
+    margin-bottom: 25px;
+}
+p, li{
+    font-size: 1.2em;
+    padding: 12px 0;
+    text-align: justify;
+}
+footer{
+    background-color: var(--cor1);
+    color: var(--cor5);
+}
